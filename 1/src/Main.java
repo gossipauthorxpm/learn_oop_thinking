@@ -7,8 +7,8 @@ public class Main {
 
         MilitaryBase base = new MilitaryBase();
 
-        base.writeGender(people1.getGender());
-        base.writeGender(people2.getGender());
+        base.writeGender(people1);
+        base.writeGender(people2);
 
         people1.setGender("trans");
 
